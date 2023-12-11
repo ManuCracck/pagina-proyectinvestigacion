@@ -57,15 +57,9 @@ function initLandbot() {
           <li><a href="#por-que-trabajar">¿Por que trabajar con nosotros?</a></li>
           <li><a href="#blog">Nuestras redes</a></li>
           <li><a href="#contacto">Contacto</a>
-              <?php
-require_once("../app/inicio.php");
-$control = new Control();
-if ($_SERVER['REQUEST_METHOD']=="POST") {
-      //Recibimos la información PHP7 isset()?valor1:valor2 => valor1 ?? valor2
-      $tipo = $_POST['foto'] ?? "";
-      print $tipo;
-}
+              
 ?>
+              
           </li>
         </ul>
       </nav>
